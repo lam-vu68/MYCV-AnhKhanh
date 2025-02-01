@@ -1,0 +1,98 @@
+/* Mobile & tablet <= 1023px*/
+@media (max-width: 63.9375em) {
+}
+
+/* tablet 740px >= và <= 1023px*/
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .header {
+    border-width: 1rem;
+  }
+
+  .avatar {
+    margin-left: 2.8rem;
+  }
+
+  .avatar img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 0.8rem solid #c3e7f3;
+  }
+
+  .infor {
+    padding-left: 2.8rem;
+  }
+
+  .infor h1 {
+    font-size: 2.8rem;
+  }
+
+  .infor h3 {
+    font-size: 2rem;
+  }
+
+  .infor .infor_personal li {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobile <= 739px */
+@media (max-width: 46.1875em) {
+  .MyCV {
+    overflow: hidden;
+  }
+  .header {
+    border-width: 1rem;
+  }
+
+  .avatar {
+    margin-left: 1rem;
+  }
+
+  .avatar img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 0.6rem solid #c3e7f3;
+  }
+
+  .infor {
+    padding-left: 1.2rem;
+  }
+
+  .infor h1 {
+    font-size: 2rem;
+  }
+
+  .infor h3 {
+    font-size: 1.4rem;
+  }
+
+  .infor .infor_personal li {
+    width: 50%;
+    padding: 0 0.5rem 0.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  .infor .infor_personal i {
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .infor .infor_personal li:nth-child(5) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* container */
+  .container .item {
+    margin: 0 5% 1.5rem;
+  }
+
+  .container .item h2 {
+    font-size: 1.8rem;
+  }
+}
